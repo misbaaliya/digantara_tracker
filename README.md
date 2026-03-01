@@ -17,8 +17,17 @@ When all three are true simultaneously, the object is considered **visible/detec
 Transition times (ingress/egress) are refined to ≤ 1 second using bisection search.
 
 ## Setup
+**1. Get the repository:**
 
-You need Python 3.8+ installed.
+Clone using Git:
+```
+git clone https://github.com/misbaaliya/digantara_tracker.git
+cd digantara_tracker
+```
+
+Or download as ZIP from [https://github.com/misbaaliya/digantara_tracker](https://github.com/misbaaliya/digantara_tracker) → click **Code** → **Download ZIP**, then extract and open the folder.
+
+**2. Install dependencies** (Python 3.8+ required):
 
 ```
 pip install skyfield numpy matplotlib
